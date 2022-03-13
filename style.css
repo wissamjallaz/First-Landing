@@ -5,58 +5,54 @@ html, body{
     flex-direction: column;
     margin: 0;
     padding: 0;
-    overflow-y:scroll;
+    overflow-y:auto;
 }
 
 .hero{
     display: flex;
     background-color: #1f2937;
     flex-direction: column;
-    flex: 1;
+    flex: 3;
+    gap: 90px;
+
 }
 
 .header{
     display: flex;
-    flex: 1;
-    justify-content: space-between;
-    margin: 12px;
-    padding: 0px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logo{
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
-    margin: 0;
-    margin-left: 320px;
 }
-
 
 .description{
     display: flex;
-}
+    justify-content:space-around;
+} 
 
 .left{
     display: flex;
     flex-direction: column;
+    margin-left: 250px;
+    padding: 0;
 }
 
 .text{
     font-size: 48px ;
     color: #f9faf8;
     font-weight: bolder;
-    margin-left: 320px;
     max-width: 299px;
+    margin:0px;
 }
 
 .subtext{
     font-size: 18px;
     color: #e5e7eb;
-    margin-left: 320px;
-    padding: 0;
-    margin-top: -40px;
     max-width: 370px;
-    margin-right: 50px;
 }
 
 .sign-up-one{
@@ -68,36 +64,36 @@ html, body{
     font-weight: bold;
     border:0;
     cursor: pointer;
-    margin:1em;
-    margin-left: 310px;
-    margin-top: -10px;     
     width: 140px;   
-
  }
-
- .centered{
-    font-size: 18px;
-    color: #e5e7eb;
-    position: absolute;
-    top: 18%;
-    left: 53%;
-    transform: translate(-45%, -50%);
+.right{
+    margin-right: 300px;
+    padding: 0;
+}
+ .image{
+     background-color: gray;
+     color: #e5e7eb;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 250px;
+     width: 500px;
  }
 
 .content-one{
     display: flex;
-    flex: 1;
-    background-color:aquamarine;
+    flex: 2;
+    background-color:whitesmoke;
 }
 
 .content-two{
     display: flex;
-    flex: 1;
+    flex: 1.5;
 }
 
 .content-three{
     display: flex;
-    flex: 1;
+    flex: 1.5;
 }
 
 .footer{
@@ -116,9 +112,6 @@ ul{
     display: flex;
     gap: 12px;
     list-style: none;
-    margin: 0;
-    margin-right: 320px;
-
 }
 
 a{
@@ -127,9 +120,4 @@ a{
     text-decoration: none;
 }
 
- img{
-     width: 500px;
-     height: 200px;
-     margin-top: 40px;
- }
 
